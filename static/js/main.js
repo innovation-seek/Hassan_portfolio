@@ -171,6 +171,32 @@ $(document).ready(function() {
 //     portfolioIsotope.isotope({ filter: $(this).data('filter') });
 //   });
 // })
+
+
+// 2nd
+
+
+// $(document).ready(function() {
+//   // Initialize Isotope after all images are loaded
+//   var portfolioIsotope = $(".portfolio-container").isotope({
+//     itemSelector: ".portfolio-thumbnail",
+//     layoutMode: "fitRows"
+//   });
+//
+//   // Show only the branding images on page load
+//   portfolioIsotope.isotope({ filter: ".branding" });
+//
+//   // Handle filter click events
+//   $('#portfolio-flters li').on('click', function() {
+//     $("#portfolio-flters li").removeClass('filter-active');
+//     $(this).addClass('filter-active');
+//     portfolioIsotope.isotope({ filter: $(this).data('filter') });
+//   });
+// });
+
+
+// 3rd
+
 $(document).ready(function() {
   // Initialize Isotope after all images are loaded
   var portfolioIsotope = $(".portfolio-container").isotope({
@@ -178,8 +204,8 @@ $(document).ready(function() {
     layoutMode: "fitRows"
   });
 
-  // Show only the branding images on page load
-  portfolioIsotope.isotope({ filter: ".branding" });
+  // Show only the segmentation images on page load
+  portfolioIsotope.isotope({ filter: ".segment" });
 
   // Handle filter click events
   $('#portfolio-flters li').on('click', function() {

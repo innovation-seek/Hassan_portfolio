@@ -3,6 +3,37 @@
 
 <head>
   <!-- meta -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+<!-- Add this at the end of your HTML body -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('.services-carousel3').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      autoplay: true,
+      autoplayTimeout: 3000, // Adjust the autoplay timeout as needed
+      autoplaySpeed: 800, // Adjust the autoplay speed as needed
+      rtl: true, // Set to true for right-to-left direction
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  });
+</script>
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -10,7 +41,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-  <title>Folio - Personal Portfolio Template</title>
+  <title>Muhammad Hassan</title>
   <meta content="" name="keywords">
   <meta content="" name="description">
 
@@ -51,7 +82,7 @@
       <div class="container">
 
         <div class="logo">
-          <a href="templates/index.html"><img src="static/images/.png" alt="logo"></a>
+          <a><img src="../static/images/logo.png" alt="logo"></a>
         </div>
         <!-- Add this line to the head section of your HTML file -->
         <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
@@ -64,10 +95,9 @@
           <li><a href="#header" class="smoothScroll"><strong>Home</strong></a></li>
           <li><a href="#about" class="smoothScroll"><strong>About</strong></a></li>
           <li><a href="#portfolio" class="smoothScroll"><strong>Portfolio</strong></a></li>
-          <li><a href="#journal" class="smoothScroll"><strong>Blog</strong></a></li>
+          <li><a href="#journal" class="smoothScroll"><strong>Demo</strong></a></li>
           <li><a href="#contact" class="smoothScroll"><strong>Contact</strong></a></li>
         </ul>
-
       </div>
     </div>
   </nav>
@@ -83,12 +113,12 @@
         <p>Artificial Intelligence, Deep Learning, Machine Learning, Computer Vision.</p>
 
         <ul class="list-unstyled list-social">
-          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-          <li><a href="#"><i class="ion-social-linkedin"></i></a></li>
-          <li><a href="#"><i class="ion-social-whatsapp"></i></a></li>
-          <li><a href="#"><i class="ion-social-github"></i></a></li>
+          <li><a href="https://www.facebook.com/muhammad.hassanjutt.167?mibextid=ZbWKwL"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2FM_Hassan_Mehtab"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/m_hassan_mehtab"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/muhammad-hassan-5774a9212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="ion-social-linkedin"></i></a></li>
+          <li><a href="https://web.whatsapp.com/send/?phone={92}{3114776921}&text=Ask Anything"><i class="ion-social-whatsapp"></i></a></li>
+          <li><a href="https://github.com/innovation-seek?tab=repositories"><i class="ion-social-github"></i></a></li>
         </ul>
       </div>
     </div>
@@ -133,48 +163,48 @@
           <div class="services-block">
 
             <i class="ion-ios-browsers-outline"></i>
-            <span>UI/UX DESIGN</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>Artificial Intelligence</span>
+            <p class="separator">Offering cutting-edge AI solutions, we harness the power of advanced algorithms to automate processes, make data-driven decisions, and unlock new possibilities for businesses.</p>
 
           </div>
 
           <div class="services-block">
 
             <i class="ion-ios-lightbulb-outline"></i>
-            <span>BRAND IDENTITY</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>Machine Learning</span>
+            <p class="separator">Transforming data into actionable insights, our machine learning expertise enables predictive analytics, recommendation systems, and personalized experiences for enhanced business outcomes.</p>
 
           </div>
 
           <div class="services-block">
 
             <i class="ion-ios-color-wand-outline"></i>
-            <span>WEB DESIGN</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>Deep Learning</span>
+            <p class="separator">Delving into neural networks and complex patterns, our deep learning solutions empower systems to recognize, understand, and respond intelligently to diverse data, pushing the boundaries of innovation.</p>
 
           </div>
 
           <div class="services-block">
 
             <i class="ion-social-android-outline"></i>
-            <span>MOBILE APPS</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>Computer Vision</span>
+            <p class="separator">We specialize in computer vision applications, enabling machines to interpret and make decisions based on visual data, revolutionizing industries from healthcare to automation.</p>
 
           </div>
 
           <div class="services-block">
 
             <i class="ion-ios-analytics-outline"></i>
-            <span>Analytics</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>Natural Language Processing</span>
+            <p class="separator">Redefining human-computer interaction, our NLP solutions leverage language understanding and generation, facilitating communication and extracting valuable insights from textual data.</p>
 
           </div>
 
           <div class="services-block">
 
             <i class="ion-ios-camera-outline"></i>
-            <span>PHOTOGRAPHY</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>Generative Artificial Intelligence</span>
+            <p class="separator">Exploring the realms of creativity, our generative AI services produce innovative content, designs, and ideas, adding a touch of uniqueness to digital experiences.</p>
 
           </div>
 
@@ -186,54 +216,60 @@
   <!-- end section services -->
   <div id="services2">
     <div class="container">
-
-        <div class="services-carousel2 owl-theme" data-rtl="true" >
-
-          <div class="services-block2">
-
+        <div class="services-carousel owl-theme" data-rtl="true" >
+          <div class="services-block">
             <i class="ion-ios-browsers-outline"></i>
-            <span>UI/UX DESIGN</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
+            <span>AI Applications</span>
+            <p class="separator">Crafting bespoke AI applications, we align technology with business objectives, creating solutions that enhance efficiency, automate tasks, and drive strategic growth.</p>
           </div>
 
-          <div class="services-block2">
+          <div class="services-block">
 
             <i class="ion-ios-lightbulb-outline"></i>
-            <span>BRAND IDENTITY</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>Web Apps</span>
+            <p class="separator">Developing dynamic and user-centric web applications, we blend functionality with seamless design, ensuring an engaging online experience for your audience.</p>
 
           </div>
 
-          <div class="services-block2">
+          <div class="services-block">
 
             <i class="ion-ios-color-wand-outline"></i>
-            <span>WEB DESIGN</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>Mobile Apps</span>
+            <p class="separator">From concept to deployment, our mobile app development services bring your ideas to life, offering intuitive and feature-rich applications for both iOS and Android platforms.</p>
 
           </div>
 
-          <div class="services-block2">
+          <div class="services-block">
 
             <i class="ion-social-android-outline"></i>
-            <span>MOBILE APPS</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>Ui/Ux</span>
+            <p class="separator">Focused on user-centric design, our UI/UX services ensure visually appealing interfaces and optimal user experiences, enhancing engagement and satisfaction.</p>
 
           </div>
 
-          <div class="services-block2">
+<!--          <div class="col-lg-4 col-md-6">-->
+<!--            <div class="journal-info">-->
+<!--              <a><img src="../static/images/portfolio/12.jpg" class="img-responsive custom-image" alt="img"></a>-->
+<!--              <div class="journal-txt">-->
+<!--                <h4><a>Image Segmentation</a></h4>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+
+
+          <div class="services-block">
 
             <i class="ion-ios-analytics-outline"></i>
-            <span>Analytics</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>Graphics Design</span>
+            <p class="separator">Elevating brand visuals, our graphics design services create impactful designs for logos, branding, and marketing collateral, conveying your brand story with creativity and flair.</p>
 
           </div>
 
-          <div class="services-block2">
+          <div class="services-block">
 
             <i class="ion-ios-camera-outline"></i>
-            <span>PHOTOGRAPHY</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>IT Services</span>
+            <p class="separator">Providing comprehensive IT services, we offer solutions ranging from system integration and IT consulting to infrastructure management, ensuring a robust and secure technology foundation for your business.</p>
 
           </div>
 
@@ -244,6 +280,41 @@
   </div>
 
   <!-- end section services2 -->
+
+
+
+  <!-- start section services3 -->
+
+  <div id="services3">
+  <div class="container">
+    <div class="services-carousel3 owl-carousel owl-theme" data-rtl="true">
+      <div class="services-block">
+        <img src="../static/images/portfolio/12.jpg" class="img-responsive custom-image" alt="Image Segmentation">
+        <span>Image Segmentation</span>
+        <p class="separator">Description for Image Segmentation service.</p>
+      </div>
+
+      <div class="services-block">
+        <img src="path/to/image2.jpg" class="img-responsive custom-image" alt="Web Apps">
+        <span>Web Apps</span>
+        <p class="separator">Description for Web Apps service.</p>
+      </div>
+
+      <!-- Add similar blocks for other services -->
+
+    </div>
+  </div>
+</div>
+
+  <!-- end section services3 -->
+
+
+
+
+
+
+
+
 
 
   <!-- start section portfolio -->
@@ -263,85 +334,91 @@
 
             <ul class="nav list-unstyled" id="portfolio-flters">
 <!--              <li class="filter" data-filter=".all">all</li>-->
-              <li class="filter filter-active" data-filter=".branding">Object Detection</li>
-              <li class="filter" data-filter=".mockups">Image segmentation</li>
-              <li class="filter" data-filter=".uikits">Face Detection</li>
-              <li class="filter" data-filter=".webdesign">Web Design</li>
-              <li class="filter" data-filter=".photography">Brochures</li>
+              <li class="filter" data-filter=".o">Object Detection</li>
+              <li class="filter filter-active" data-filter=".segment">Image segmentation</li>
+              <li class="filter" data-filter=".f">Face Detection</li>
+              <li class="filter" data-filter=".w">Web Design</li>
+              <li class="filter" data-filter=".b">Brochures</li>
             </ul>
 
           </div>
 
           <div class="portfolio-container">
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail branding ">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail segment">
               <a class="popup-img" href="../static/images/portfolio/1.jpg">
                 <img src="../static/images/portfolio/1.jpg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail uikits">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail f">
               <a class="popup-img" href="../static/images/portfolio/2.jpg">
                 <img src="../static/images/portfolio/2.jpg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail branding mockups ">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail segment">
               <a class="popup-img" href="../static/images/portfolio/3.jpg">
                 <img src="../static/images/portfolio/3.jpeg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail mockups webdesign">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail b">
               <a class="popup-img" href="../static/images/portfolio/4.jpg">
                 <img src="../static/images/portfolio/4.jpg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail branding  ">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail o">
               <a class="popup-img" href="../static/images/portfolio/5.jpg">
                 <img src="../static/images/portfolio/5.jpg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail mockups uikits webdesign">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail o">
               <a class="popup-img" href="../static/images/portfolio/6.jpg">
                 <img src="../static/images/portfolio/6.png" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail mockups uikits webdesign">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail f">
+              <a class="popup-img" href="../static/images/portfolio/6.jpg">
+                <img src="../static/images/portfolio/me.png" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail o">
               <a class="popup-img" href="../static/images/portfolio/7.png">
                 <img src="../static/images/portfolio/7.png" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail mockups uikits webdesign">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail o">
               <a class="popup-img" href="../static/images/portfolio/8.jpg">
                 <img src="../static/images/portfolio/8.jpg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail mockups uikits webdesign">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail o">
               <a class="popup-img" href="../static/images/portfolio/9.jpg">
                 <img src="../static/images/portfolio/9.jpg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail mockups uikits webdesign">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail o">
               <a class="popup-img" href="../static/images/portfolio/10.jpg">
                 <img src="../static/images/portfolio/10.jpg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail mockups uikits webdesign">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail o">
               <a class="popup-img" href="../static/images/portfolio/11.jpg">
                 <img src="../static/images/portfolio/11.jpg" alt="img">
               </a>
             </div>
 
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail mockups uikits webdesign">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail segment">
               <a class="popup-img" href="../static/images/portfolio/12.jpg">
                 <img src="../static/images/portfolio/12.jpg" alt="img">
               </a>
@@ -349,13 +426,13 @@
 
             <!--broshurs-->
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail photography">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail b">
               <a class="popup-img" href="../static/images/portfolio/b%20(1).jpeg">
                 <img src="../static/images/portfolio/b%20(1).jpeg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail photography">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail b">
               <a class="popup-img" href="../static/images/portfolio/b%20(2).jpeg">
                 <img src="../static/images/portfolio/b%20(2).jpeg" alt="img">
               </a>
@@ -367,25 +444,25 @@
 <!--              </a>-->
 <!--            </div>-->
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail photography">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail b">
               <a class="popup-img" href="../static/images/portfolio/b%20(4).jpeg">
                 <img src="../static/images/portfolio/b%20(4).jpeg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail photography">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail b">
               <a class="popup-img" href="../static/images/portfolio/b%20(5).jpeg">
                 <img src="../static/images/portfolio/b%20(5).jpeg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail photography">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail b">
               <a class="popup-img" href="../static/images/portfolio/b%20(6).jpeg">
                 <img src="../static/images/portfolio/b%20(6).jpeg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail photography">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail b">
               <a class="popup-img" href="../static/images/portfolio/b%20(7).jpeg">
                 <img src="../static/images/portfolio/b%20(7).jpeg" alt="img">
               </a>
@@ -397,73 +474,73 @@
 <!--              </a>-->
 <!--            </div>-->
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail photography">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail b">
               <a class="popup-img" href="../static/images/portfolio/b%20(9).jpeg">
                 <img src="../static/images/portfolio/b%20(9).jpeg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail photography">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail b">
               <a class="popup-img" href="../static/images/portfolio/b%20(10).jpeg">
                 <img src="../static/images/portfolio/b%20(10).jpeg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail photography">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail b">
               <a class="popup-img" href="../static/images/portfolio/b%20(11).jpeg">
                 <img src="../static/images/portfolio/b%20(11).jpeg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail photography">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail b">
               <a class="popup-img" href="../static/images/portfolio/b%20(12).jpeg">
                 <img src="../static/images/portfolio/b%20(12).jpeg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail photography">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail b">
               <a class="popup-img" href="../static/images/portfolio/b%20(13).jpeg">
                 <img src="../static/images/portfolio/b%20(13).jpeg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail photography">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail b">
               <a class="popup-img" href="../static/images/portfolio/b%20(14).jpeg">
                 <img src="../static/images/portfolio/b%20(14).jpeg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail photography">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail b">
               <a class="popup-img" href="../static/images/portfolio/b%20(15).jpeg">
                 <img src="../static/images/portfolio/b%20(15).jpeg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail photography">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail b">
               <a class="popup-img" href="../static/images/portfolio/b%20(16).jpeg">
                 <img src="../static/images/portfolio/b%20(16).jpeg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail photography">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail b">
               <a class="popup-img" href="../static/images/portfolio/b%20(17).jpeg">
                 <img src="../static/images/portfolio/b%20(17).jpeg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail photography">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail b">
               <a class="popup-img" href="../static/images/portfolio/b%20(18).jpeg">
                 <img src="../static/images/portfolio/b%20(18).jpeg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail photography">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail b">
               <a class="popup-img" href="../static/images/portfolio/b%20(19).jpeg">
                 <img src="../static/images/portfolio/b%20(19).jpeg" alt="img">
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail photography">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail b">
               <a class="popup-img" href="../static/images/portfolio/b%20(20).jpeg">
                 <img src="../static/images/portfolio/b%20(20).jpeg" alt="img">
               </a>
@@ -509,13 +586,13 @@
           <div class="col-lg-4 col-md-6">
             <div class="journal-info">
 
-              <a href="../blog-single.html"><img src="../static/images/blog-post-1.jpg" class="img-responsive" alt="img"></a>
+              <a ><img src="../static/images/portfolio/12.jpg" class="img-responsive" alt="img"></a>
 
               <div class="journal-txt">
 
-                <h4><a href="../blog-single.html">SO LETS MAKE THE MOST IS BEAUTIFUL</a></h4>
-                <p class="separator">To an English person, it will seem like simplified English
-                </p>
+                <h4><a >Image Segmentation</a></h4>
+<!--                <p class="separator">To an English person, it will seem like simplified English-->
+<!--                </p>-->
 
               </div>
 
@@ -525,13 +602,13 @@
           <div class="col-lg-4 col-md-6">
             <div class="journal-info">
 
-              <a href="../blog-single.html"><img src="../static/images/blog-post-2.jpg" class="img-responsive" alt="img"></a>
+              <a ><img src="../static/images/portfolio/8.jpg" class="img-responsive" alt="img"></a>
 
               <div class="journal-txt">
 
-                <h4><a href="#blog-single.html">WE'RE GONA MAKE DREAMS COMES</a></h4>
-                <p class="separator">To an English person, it will seem like simplified English
-                </p>
+                <h4><a >vehicle tracking system.</a></h4>
+<!--                <p class="separator">To an English person, it will seem like simplified English-->
+<!--                </p>-->
 
               </div>
 
@@ -541,13 +618,13 @@
           <div class="col-lg-4 col-md-6">
             <div class="journal-info">
 
-              <a href="../blog-single.html"><img src="../static/images/blog-post-3.jpg" class="img-responsive" alt="img"></a>
+              <a ><img src="../static/images/portfolio/5.jpg" class="img-responsive" alt="img"></a>
 
               <div class="journal-txt">
 
-                <h4><a href="../blog-single.html">NEW LIFE CIVILIZATIONS TO BOLDLY</a></h4>
-                <p class="separator">To an English person, it will seem like simplified English
-                </p>
+                <h4><a >Vehicle Analysis system.</a></h4>
+<!--                <p class="separator">To an English person, it will seem like simplified English-->
+<!--                </p>-->
 
               </div>
 
@@ -574,7 +651,6 @@
                   <li><span><strong>+92 3114776921</strong></span></li>
                   <li><span><strong>hassan.ad.mehtab@gmail.com</strong></span></li>
                 </ul>
-
         </div>
       </div>
     </div>
@@ -588,16 +664,14 @@
       <div class="socials-media text-center">
 
         <ul class="list-unstyled">
-          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-          <li><a href="#"><i class="ion-social-linkedin"></i></a></li>
-          <li><a href="#"><i class="ion-social-whatsapp"></i></a></li>
-          <li><a href="#"><i class="ion-social-github"></i></a></li>
+          <li><a href="https://www.facebook.com/muhammad.hassanjutt.167?mibextid=ZbWKwL"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2FM_Hassan_Mehtab"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/m_hassan_mehtab"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/muhammad-hassan-5774a9212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="ion-social-linkedin"></i></a></li>
+          <li><a href="https://web.whatsapp.com/send/?phone={92}{3114776921}&text=Ask Anything"><i class="ion-social-whatsapp"></i></a></li>
+          <li><a href="https://github.com/innovation-seek?tab=repositories"><i class="ion-social-github"></i></a></li>
         </ul>
-
       </div>
-
     </div>
   </div>
   <!-- End section footer -->
